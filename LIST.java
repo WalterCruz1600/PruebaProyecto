@@ -15,7 +15,7 @@ public class LIST {
     
     public ArrayList<String> Lista(ArrayList<String> dato){
         
-        System.out.println("Lista "+dato);
+        System.out.println(dato);
         
         
         

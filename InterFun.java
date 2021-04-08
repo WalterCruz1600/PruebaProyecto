@@ -38,6 +38,7 @@ public class InterFun implements Interpretar{
 
     @Override
     public ArrayList<String> sepTokens(String inputLisp) {
+        contexto.clear();
         inputLisp = inputLisp.replace("(", " ( ").replace(")", " ) ");
            /*
         Se crea una pila y un objeto String tokenizer para obtener los tokens de la expresion
@@ -91,14 +92,6 @@ public class InterFun implements Interpretar{
         
     }
     
-    
-    
-    
-    
-    
-    
-    
-
     /*
     Se crea el abstract syntax tree
      */
@@ -125,6 +118,7 @@ public class InterFun implements Interpretar{
 
             }
         }
+        
 
     }
     
@@ -174,8 +168,6 @@ Se crea la calculadora para LISP
         /*
         aritmeticas
          */
-
-
 
 
     }

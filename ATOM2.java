@@ -22,21 +22,9 @@ public class ATOM2 {
             
             
             
-            
-            
-            
-            
-            
-            
-            
             }else if(index.get(i).equals("(") || index.get(i).equals("( ") || index.get(i).equals(" (") ){
         
             
-        
-        
-        
-        
-        
         
             }else if(index.get(i).equals(")") || index.get(i).equals(") ") || index.get(i).equals(" )")){
                 
@@ -46,18 +34,6 @@ public class ATOM2 {
             
                 contador++;
                 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
             }
         }
         if(contador==1||contador==2){
